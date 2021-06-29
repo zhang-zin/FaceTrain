@@ -97,10 +97,10 @@ int main() {
             resize(m, m, Size(24, 24));
             //转成灰度
             cvtColor(m, m, COLOR_BGR2GRAY);
-            char p[100];
-            //sprintf(p, "E:\\c-project\\FaceTrain\\zhang/%d.jpg", i++);
-            //把mat写出为jpg文件
-            //imwrite(p, m);
+//            char p[100];
+//            sprintf(p, "E:\\c-project\\FaceTrain\\samples\\zhang/%d.jpg", i++);
+//            //把mat写出为jpg文件
+//            imwrite(p, m);
             m.release();
 #endif
         }
